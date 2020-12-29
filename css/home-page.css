@@ -2,12 +2,36 @@
 @import './components/variables.css';
 @import './components/reset.css';
 /*3rd party*/
-/* components*/
+/*   bootstrap-grid
+/* components  (visi turi buti isvardinti abeceles tvarka)*/
 
 @import './components/header.css';
+@import './components/button.css';
+@import './components/hero.css';
+@import './components/mouse.css';
+@import './components/about-me.css';
+@import './components/hobbies.css';
+@import './components/achievements.css';
+@import './components/services.css';
+@import './components/job-history.css';
+@import './components/work-expertise.css';
+@import './components/progress-bar.css';
+@import './components/gallery.css';
+@import './components/slider.css';
+@import './components/testimonial.css';
+@import './components/blog.css';
+@import './components/banner.css';
+@import './components/contact-details.css';
+@import './components/form.css';
+@import './components/footer.css';
 
 /*custom: homepage sections*/
 
 /*header*/
 /*hero*/
-/*services*/
+/*about*/
+/*hobbies*/
+/*achievements*/
+/*job history*/
+/*contact me*/
+/*footer*/
