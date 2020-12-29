@@ -2,7 +2,8 @@
 @import './components/variables.css';
 @import './components/reset.css';
 /*3rd party*/
-/*   bootstrap-grid
+@import './components/bootstrap-grid.css';
+@import './components/bootstrap-grid.min.css';
 /* components  (visi turi buti isvardinti abeceles tvarka)*/
 
 @import './components/header.css';
