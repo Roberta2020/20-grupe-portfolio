@@ -4,6 +4,7 @@
 /*3rd party*/
 @import './components/bootstrap-grid.css';
 @import './components/bootstrap-grid.min.css';
+@import './font-awesome.min.css';
 /* components  (visi turi buti isvardinti abeceles tvarka)*/
 
 @import './components/header.css';
