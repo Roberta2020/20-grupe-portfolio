@@ -1,5 +1,7 @@
 //all import (importai)
 /*header*/
+import {Menu} from './components/menu/Menu.js';
+import {menuData} from './data/menuData.js';
 /*hero*/
 /*about*/
 /*hobbies*/
@@ -10,6 +12,8 @@
 
 //code execution (importu panaudojimas)
 /*header*/
+const menu = new Menu(menuData);
+menu.init;
 /*hero*/
 /*about*/
 /*hobbies*/
