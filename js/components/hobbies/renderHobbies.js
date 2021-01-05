@@ -8,6 +8,7 @@ function renderHobbies(params) {
         return false;
     }
 
+    console.log(params);
     //logic
     const {selector, data, limit} = params;
 
