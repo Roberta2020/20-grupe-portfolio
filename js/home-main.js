@@ -23,7 +23,6 @@ renderHobbies({
     selector: '#hobbies_block',
     data: hobbiesData,
     limit: 12,
-    borderRadius: 4
 });
 /*achievements*/
 /*job history*/
