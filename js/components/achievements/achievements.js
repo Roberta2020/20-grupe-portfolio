@@ -4,12 +4,14 @@ import {isValidAchievementsItem} from './isValidAchievementsItem.js';
 //APRASOM KLASE
 
 class Achievements {
-    constructor(params) {
-        this.selector = params.selector;
-        this.limit = params.limit;
-        this.data = params.data;
-
+    constructor(params = {}) {
+    
+        this.selector = params.selector || '';
         this.defaultLimit = 4; //keturi skaiciu elementai
+        this.limit = params.limit || this.defaultLimit;
+        this.data = params.data || [];
+
+        
         this.DOM = null; // is pradziu dokumentas nezinomas
         this.validUsedData = []; //atrinkti objektai kurie bus idedami i sekcija
         this.animationDuration = 5; // laikas per kiek prasisuka skaicia
@@ -27,6 +29,7 @@ class Achievements {
         this.limit = this.isValidLimit() ? this.limit : this.defaultLimit;
         this.render();
         this.Event();
+        return true;
     }
 
 isValidSelector() {
