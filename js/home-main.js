@@ -8,6 +8,8 @@ import {menuData} from './data/menuData.js';
 import {renderHobbies} from './components/hobbies/renderHobbies.js';
 import {hobbiesData} from './data/hobbiesData.js';
 /*achievements*/
+import {Achievements} from './components/achievements/Achievements.js';
+import {achievementsData} from './data/achievementsData.js';
 /*job history*/
 /*contact me*/
 /*footer*/
@@ -25,6 +27,8 @@ renderHobbies({
     limit: 12,
 });
 /*achievements*/
+const achievements = newAchievements(achievements.data)
+
 /*job history*/
 /*contact me*/
 /*footer*/
