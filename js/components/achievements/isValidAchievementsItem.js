@@ -24,4 +24,4 @@ function isValidAchievementsItem(item) {
     return true;
 }
 
-export {isValidAchievementItem}
+export {isValidAchievementsItem}

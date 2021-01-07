@@ -27,7 +27,7 @@ renderHobbies({
     limit: 12,
 });
 /*achievements*/
-const achievements = newAchievements(achievements.data)
+const achievements = newAchievements(achievements.data);
 
 /*job history*/
 /*contact me*/
