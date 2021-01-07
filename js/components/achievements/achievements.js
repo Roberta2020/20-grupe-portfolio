@@ -75,7 +75,11 @@ isValidAchievementItem() {
                 continue;
             }
             
-            HTML += `<div class="">${item.label}</div>`;
+            HTML += `<div class="">
+                        <i class="fa fa-${item.icon}"><i/>
+                        <div class="number">${item.number}</div>
+                        <div class="label">${item.label}</div>
+                        </div>`;
             validItems++;
         }
 

@@ -3,22 +3,22 @@ const achievementsData = {
     limit: 4,
     data:[
         {
-            icon:'global',
+            icon:'globe',
             number: 1251,
             label: 'Happpy client'
         },
         {
-            icon:'global',
+            icon:'globe',
             number: 1251,
             label: 'Award won'
         },
         {
-            icon:'global',
+            icon:'globe',
             number: 1251,
             label: 'Cup of coffee'
         },
         {
-            icon:'global',
+            icon:'globe',
             number: 1251,
             label: 'Project cpomp'
         },
